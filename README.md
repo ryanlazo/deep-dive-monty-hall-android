@@ -18,3 +18,5 @@ after the initial choice is made the <code>Stage</code> is advanced to <code>DOO
 clicked will cause the <code>chosen_door</code> to either stay the same or switch respectively. After 
 that decision is made the <code>Stage</code> is advanced to <code>END</code> and the rest of the doors open to show their contents, revealing
 wheter or not the <code>chosen_door</code> was a <code>CAR</code> or <code>GOAT</code>.
+
+[javadoc](docs)
