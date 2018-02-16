@@ -29,7 +29,7 @@ public class Game {
 
   /**
    * the setup method takes the Contains method and assigns a goat or a car to a door and shuffles
-   * them around so that they are not the same each turn. This is done at the <stage.Beginning> of
+   * them around so that they are not the same each turn. This is done at the stage.Beginning of
    * each turn.
    */
   public void setup() {
@@ -41,7 +41,7 @@ public class Game {
     stage = Stage.BEGINNING;
   }
   /**
-   * the <behindDoor> method takes whatever door was selected and determines whether it was a car or
+   * the behindDoor method takes whatever door was selected and determines whether it was a car or
    * a goat.
    */
   public Contains behindDoor(int i) {
@@ -50,7 +50,7 @@ public class Game {
   }
 
   /**
-   * the <doorState> method determines whether the door is in the open or closed state.
+   * the doorState method determines whether the door is in the open or closed state.
    * @param i   i
    * @return    returns the door open or closed.
    */
@@ -60,11 +60,11 @@ public class Game {
   }
 
   /**
-   * the <selectedDoor> method states that if we are at the beginning and the first door is selected
+   * the selectedDoor method states that if we are at the beginning and the first door is selected
    * then either door 2 or door 3 is revealed. If door 3 is chosen then it will reveal either door 1
    * or door 2. if door 2 is chosen then either door 3 or door 1 is revealed. at the end of this method
    * you will have chosen one of 3 doors and another will have been revealed to you as a goat.
-   * @param i
+   * @param i stage
    */
   public void selectedDoor(int i) {
     if (stage != Stage.BEGINNING) {
@@ -103,7 +103,7 @@ public class Game {
   }
 
   /**
-   * the <switchDoors> method allows you the ability to switch to a different door than the one you
+   * the switchDoors method allows you the ability to switch to a different door than the one you
    * originally selected as long as that door is still closed. If you switch doors and win then the
    * won_switched tally will be updated.
    */
@@ -127,7 +127,7 @@ public class Game {
   }
 
   /**
-   * the <stayDoor> method allows you keep your original door selection. If you win then the won_stayed
+   * the stayDoor method allows you keep your original door selection. If you win then the won_stayed
    * tally will be updated.
    */
   public void stayDoor() {
@@ -201,7 +201,7 @@ public class Game {
   }
 
   /**
-   * the <isWin> method determines whether the final door you selected has a car or a goat in it thus
+   * the isWin method determines whether the final door you selected has a car or a goat in it thus
    * determining whether you have won or lost.
    * @return    true if car || return false if goat.
    */

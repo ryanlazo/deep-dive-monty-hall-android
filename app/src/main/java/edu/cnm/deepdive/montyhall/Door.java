@@ -35,7 +35,7 @@ public class Door {
 
   /**
    * the getState method gets the state of the door (open or closed).
-   * @return
+   * @return  state
    */
   public State getState() {
     return state;
@@ -43,7 +43,7 @@ public class Door {
 
   /**
    * the getContains method gets whatever the selected door contains (car or goat).
-   * @return
+   * @return  contains
    */
   public Contains getContains() {
     return contains;
