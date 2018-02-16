@@ -1,6 +1,6 @@
-#Monty Hall Simulation
+# Monty Hall Simulation
 
-##About the Problem
+## About the Problem
 The Monty Hall problem was named after the game show "Lets Make a Deal"
 that was hosted by Monty Hall. The problem is given three doors, two of which
 contain "goats" or zonks, and one that contains a "Car" or prize, you have to
@@ -10,7 +10,7 @@ to stay with your original choice or switch to the door that has not been
 revealed. The choice considered a "win" is when the door you choose contained
 the "car".
 
-##How we approached the Problem
+## How we approached the Problem
 Given the three frame objects given to us that represented the doors we used
 an onClickListener to define the selected door as the <code>Field</code> <code>chosen_door</code>.
 after the initial choice is made the <code>Stage</code> is advanced to <code>DOOR_CHOSEN
